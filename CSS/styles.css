@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+.banner{
+    height: 250px;
+    background-image: url('/images/banner-tet-dep-01.jpg');
+    color: aliceblue;
+    line-height: 50px;
+    font-size: 25px;
+}
+.banner>.gioithieu{
+    text-align: center;
+    padding-top: 55px;
+}
+
+
+.logo{
+    height: 150px;
+    background: linear-gradient(to right, #23074d, #cc5333);
+    position: relative;
+}
+.logo>img{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.logo>input{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 4px solid gray;
+    padding: 10px 100px;
+}
+.logo>b{
+    position: absolute;
+    top: 110px;
+    right: 5px;
+    font-size: 30px;
+}
+.menu{
+    background-color: #fee366;
+    overflow: hidden;
+}
+.menu>a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu a:hover{
+    background-color: #7085db;
+    color: brown;
+}
+.content{
+    height: 1700px;
+    /* background-color: wheat; */
+}
+.sp{
+    background-color: white;
+    width: 20%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.sp>.san-pham{
+    font-weight: bold;
+    margin: 10px;
+}
+.sp>.san-pham>img{
+    max-width: 95%;
+    display: block;
+    transition: all 300ms ;
+}
+.sp>.san-pham>img:hover{
+    transform:translatey(-25px);
+}
+.sp>.san-pham>.giacu{
+    color: grey;
+}
+.sp>.san-pham>.giamoi{
+    color: red;
+    font-size: 16px;
+}
+
+
+.td>h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #23074d;
+
+    
+}
+footer{
+    height: 300px;
+    display: flex;
+    background-color: #192041;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+footer>#in41{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+footer>#in42{
+    position: absolute;
+    top: 20%;
+    left: 44%;
+}
+footer>#in43{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
+
+

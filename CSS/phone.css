@@ -1,0 +1,38 @@
+table{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    padding-top: 30px;
+}
+table>img{
+    padding-top: 0;
+}
+.dienthoai{
+    height: 860px;
+}
+address{
+    width: 75%;
+    float: left;
+    background-color: antiquewhite;
+}
+article{
+    width: 25%;
+    float: right;
+    line-height: 10px;
+    height: 100%;
+}
+.table2{
+    box-sizing: 50px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+article>img{
+    width: 100%;
+    height: 100%;
+}
+.sp{
+    width: 33%;
+    background-color: antiquewhite;
+}

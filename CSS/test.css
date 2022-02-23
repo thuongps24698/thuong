@@ -1,0 +1,178 @@
+*{
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+.mid{
+    height: 1550px;
+    background-color: white;
+}
+
+.trang{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    position: relative;
+}
+/* Header/Blog Title */
+.header {
+    padding: 10 px;
+    text-align: center;
+    color: white;
+    background-image: url('/images/banner-tet-dep-01.jpg');
+    height: 250px;
+    position: relative;
+}
+
+.header h1{
+    position: relative;
+    margin-top: 100px;
+    font-size: 40px;
+    color: white;
+    top: 50px;
+}
+.header b{
+    position: relative;
+    font-size: 20px;
+    color: white;
+    top: 40px;
+}
+/* thanh tìm kiếm */
+.search{
+    background: linear-gradient(to right, #23074d, #cc5333);
+    background-attachment: fixed;
+    font-family: 'padding ';
+    height: 150px;
+    
+
+}
+.search >p{
+    position: relative;
+    top: 50px;
+    right: 20px;
+    font-size: 40px;
+}
+.search input{
+    position: relative;
+    top: 50px;
+    left: 22%;
+    border-radius: 8px;
+    border: 4px solid ;
+    padding: 10px 100px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #99A799;
+    /* margin:0px 100px 0px -50px; */
+    
+}
+.search>img{
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+.bangchon {
+    /* dấu text bị tràn */
+    overflow: hidden; 
+    background-color: #fee366;
+
+}
+
+/* Định dạng link điều hướng */
+.bangchon a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+/* Thay đổi màu liên kết khi di chuột qua */
+.bangchon a:hover {
+    background-color: #7085db;
+    color: brown;
+}
+
+h1{
+    text-align: center;
+    color: #25287b;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+/* Sản phẩm */
+.column{
+    width: 20%;
+    float: left;
+    gap : 20px;
+    
+}
+.san-pham{
+    text-align: center;
+    margin: 10px;
+    
+}
+.san-pham img{
+    max-width: 65%;
+}
+.san-pham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+.san-pham .gia del{
+    color: gray;
+}
+.khoi {
+    display: block;
+    transition: all 300ms ;
+    
+}
+.khoi:hover{
+    /* transform: scale(1.5); */
+    transform:translatey(-25px);
+}
+
+footer{
+    display: flex;
+    background-color: #192041;
+    height: 250px;
+    color: white;
+}
+#in41{
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+#in42{
+    position: relative;
+    top: 20%;
+    left: 35%;
+}
+#in43{
+    position: relative;
+    top: 20%;
+    left: 50%;
+}
+
+
+
+
+.test{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    text-align: center;
+}

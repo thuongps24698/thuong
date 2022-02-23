@@ -1,0 +1,34 @@
+.chitiet{
+    width: 70%;
+    height: 750px;
+    margin: auto;
+    background-color: aliceblue;
+    position: relative;
+}
+.noidung{
+    background-color: rgb(160, 135, 135);
+}
+.anh>img{
+    position: absolute;
+    top: 20px;
+    width: 50%;
+}
+.thongso{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.lienquan{
+    line-height: 100px;
+    width: 98%;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-size: 30px;
+}
+.tieude>img{
+    width: 23%;
+}
